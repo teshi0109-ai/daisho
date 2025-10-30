@@ -1,5 +1,5 @@
 const helloBtn=document.getElementById("helloBtn");
-const massage=document.getElementById("massage");
+const message=document.getElementById("message");
 
 helloBtn.addEventListener("click",()=>{
     const hour =new Date().getHours();
