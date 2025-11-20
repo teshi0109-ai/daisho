@@ -22,7 +22,7 @@ function render(){
 
 
         if(item.stock<item.minStock){
-            tr.classList.add("low-stoock");
+            tr.classList.add("low-stock");
         }
 
 
