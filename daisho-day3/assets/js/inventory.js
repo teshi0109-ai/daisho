@@ -8,7 +8,7 @@ const items=[
 ];
 
 //HTMLで <tbody id="item-list"> と書いた部分を JavaScript から取得する
-const tbody=document.getElementsByld("item-list")
+const tbody=document.getElementByld("item-list")
 
 //-----------------
 //2.表示用の関数render()
