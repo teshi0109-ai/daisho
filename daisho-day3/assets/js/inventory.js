@@ -42,7 +42,7 @@ function render(){
 }
 
 //-----------------
-function chargeStock(id,diff){
+function changeStock(id,diff){
     const item=items.find(i=>i.id===id);
     if(!item){
         return;
