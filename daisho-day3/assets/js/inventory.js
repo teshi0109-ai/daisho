@@ -14,7 +14,7 @@ const tbody=document.getElementByld("item-list")
 //2.表示用の関数render()
 //-----------------
 function render(){
-    tbody.innerHTML="",
+    tbody.innerHTML="";
 
 
     items.forEach(item=>{
