@@ -32,8 +32,8 @@ function render(){
         <td>${item.price}</td>
         <td>${item.stock}</td>
         <td>
-           <button onclick="chargeStock('${item.id}',1)">+</button>
-           <button onclick="chargeStock('${item.id}',-1)">-</button>
+           <button onclick="changeStock('${item.id}',1)">+</button>
+           <button onclick="changeStock('${item.id}',-1)">-</button>
         </td>
         `;
 
