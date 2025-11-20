@@ -48,7 +48,7 @@ function changeStock(id,diff){
         return;
     }
 
-    item.stock+=diff
+    item.stock+=diff;
 
     if(item.stock<0){
         item.stock=0;
